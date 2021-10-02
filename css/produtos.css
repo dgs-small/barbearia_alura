@@ -1,86 +1,99 @@
-header{
-    background: #CCCCCC;
-    padding-top: 20px;
-    padding-bottom: 20px;
+header {
+  background: #cccccc;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-.container{
-    position: relative;
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+.container {
+  position: relative;
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-nav{
-    position: absolute;
-    top: 125px;
-    right: 0;
+nav {
+  position: absolute;
+  top: 125px;
+  right: 0;
 }
 
-nav li{
-    display: inline;
-    margin-left: 15px;
+nav li {
+  display: inline;
+  margin-left: 15px;
 }
 
-nav a{
-    text-decoration: none;
-    color: #000000;
-    font-weight: bold;
-    font-size: 22px;
-    text-transform: uppercase;
+nav a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
-nav a:hover{
-    color: #C19C17;
-    text-decoration: underline;
+nav a:hover {
+  color: #c19c17;
+  text-decoration: underline;
 }
 
-nav a:active{
-    color: #088C19;
+nav a:active {
+  color: #85b5c3ea;
 }
 
-.produtos{
-    padding-top: 50px;
-    width: 940px;
-    margin: 0 auto;
+.produtos {
+  padding-top: 50px;
+  width: 940px;
+  margin: 0 auto;
 }
 
-.produtos li{
-    display: inline-block;
-    align-items: center;
-    text-align: center;
-    vertical-align: top;
-    width: 30%;
-    margin: 0 1.5%;
-    box-sizing: border-box;
-    padding: 30px 20px;
-    border: 2px solid #000000;
-    border-radius: 10px;
+.produtos li {
+  display: inline-block;
+  align-items: center;
+  text-align: center;
+  vertical-align: top;
+  width: 30%;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  border: 2px solid #000000;
+  border-radius: 10px;
 }
 
-.produtos li:hover{
-    border-color: #C19C17;
+.produtos li:hover {
+  border-color: #c19c17;
 }
 
-.produtos li:hover h2{
-    font-size: 35px;
+.produtos li:hover h2 {
+  font-size: 35px;
 }
 
-.produtos li:active{
-    color:#C19C17;
+.produtos li:active {
+  color: #c19c17;
 }
 
-.produtos li h2{
-    font-size: 30px;
-    font-weight: bold;
+.produtos li h2 {
+  font-size: 30px;
+  font-weight: bold;
 }
 
-.produtos_descricao{
-    font-size:18px;
+.produtos_descricao {
+  font-size: 18px;
 }
 
-.produtos_preco{
-    font-size: 22px;
-    font-weight: bold;
-    margin-top: 10px;
+.produtos_preco {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  background: url(../images/bg.jpg);
+  text-align: center;
+  padding: 40px 0;
+  margin-top: 60px;
+}
+
+footer .copyright {
+  color: #ffffff;
+  font-size: 12px;
+  margin-top: 20px;
 }
