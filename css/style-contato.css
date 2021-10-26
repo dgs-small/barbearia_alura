@@ -48,7 +48,7 @@ header {
     margin: 40px 0;
   }
 
-  form label, form p {
+  form label, form legend {
     display: block;
     font-size: 20px;
     margin-bottom: 10px;
@@ -68,6 +68,26 @@ header {
   .checkbox {
     margin: 20px 0;
   }
+
+  .submit-button {
+    margin-left: 17%;
+    background: orange;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 3px;
+    width: 20%;
+    padding: 10px 0;
+    font-size: 15px;
+    transition: all 1s;
+    cursor: pointer;
+  }
+
+  .submit-button:hover {
+    background: darkorange;
+    transform: scale(1.1);
+
+  }
+
 
   footer {
     background: url(../images/bg.jpg);
