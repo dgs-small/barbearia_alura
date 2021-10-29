@@ -65,6 +65,24 @@ header {
     margin: 20px 0;
   }
 
+  table {
+    margin: 25px 0;
+  }
+
+  thead {
+    background: orange;
+    font-weight: bold;
+  }
+
+  tbody {
+    background: #e0dcdc;
+  }
+
+  th, td {
+    padding:5px 15px;
+    border: 2px solid #444444;
+  }
+
   .checkbox {
     margin: 20px 0;
   }
