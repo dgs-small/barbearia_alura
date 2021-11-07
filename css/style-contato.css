@@ -69,6 +69,12 @@ header {
     margin: 25px 0;
   }
 
+  table caption {
+    font-size: 1.2em;
+    background-color: orange;
+    border: 1px solid #444444;
+  }
+
   thead {
     background: orange;
     font-weight: bold;

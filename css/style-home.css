@@ -1,3 +1,7 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   background: #cccccc;
   padding-top: 20px;
@@ -38,61 +42,89 @@ nav a:active {
   color: #85b5c3ea;
 }
 
-#banner {
+.banner {
   width: 100%;
 }
 
+main {
+  background: linear-gradient(#fefefe, #747272);
+}
+
 .principal {
-  background: #85b5c3ea;
-  padding: 30px;
+  padding: 3em 0;
+  width: 940px;
+	margin: 0 auto;
+}
+
+.titulo_principal {
   text-align: center;
-  height: auto;
+  font-size: 2em;
+  margin-bottom: 1em;
+  clear: left;
 }
 
-.titulo_centralizado {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 1%;
+.utensilios {
+  width: 130px;
+  float: left;
 }
 
-#missao {
-  font-size: 22px;
-  margin: 1% 0;
+.principal p {
+  margin-bottom: 1em;
 }
 
-em strong {
-  color: #c19c17;
+.principal strong {
+  font-weight: bold;
+}
+
+.principal em {
+  font-style: italic;
 }
 
 .beneficios {
-  background: url(../images/beneficios.jpg) no-repeat;
-  background-size: 100%;
-  padding: 20px;
+  padding: 3em 0;
 }
 
-.titulo_beneficios {
-  color: #ffffff;
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 1%;
+.conteudo_beneficios {
+  width: 640px;
+	margin: 0 auto;
 }
 
 .lista_beneficios {
+  width: 40%;
   display: inline-block;
   vertical-align: top;
-  width: 20%;
-  margin: 5% 10%;
+  list-style: none;
 }
 
-.item_lista {
-  color: #ffffff;
-  font-style: italic;
-  font-size: 25px;
-  margin-bottom: 15%;
+.itens {
+  line-height: 1.5;
+}
+
+.itens::before{
+  content: "💈";
 }
 
 .imagem_beneficios {
-  width: 50%;
+  width:60%;
+}
+
+.mapa {
+  padding: 3em 0;
+  text-align: center;
+}
+
+.mapa p {
+  margin-bottom: 2em;
+}
+
+.mapa_conteudo {
+  width: 940px;
+  margin : 0 auto;
+}
+
+.video {
+  width: 560px;
+  margin: 2em auto;
 }
 
 footer {

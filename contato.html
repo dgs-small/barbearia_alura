@@ -50,7 +50,7 @@
 
         <fieldset class="select-horario">
           <legend>Selecione o horário desejado:</legend>
-          <select>
+          <select title="seleção de horário">
             <option selected disabled value="">Selecione uma opção</option>
             <option>Manhã</option>
             <option>Tarde</option>
@@ -59,23 +59,24 @@
         </fieldset>
 
         <table>
+          <caption>Horário de Funcionamento</caption>
           <thead>
             <tr>
-              <th>Dia</th>
-              <th>Horário</th>
+              <th scope="col">Dia</th>
+              <th scope="col">Horário</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Segunda</td>
+              <th scope="row">Segunda</th>
               <td>8:00-20:00</td>
             </tr>
             <tr>
-              <td>Quarta</td>
+              <th scope="row">Quarta</th>
               <td>8:00-20:00</td>
             </tr>
             <tr>
-              <td>Sexta</td>
+              <th scope="row">Sexta</th>
               <td>8:00-20:00</td>
             </tr>
           </tbody>
