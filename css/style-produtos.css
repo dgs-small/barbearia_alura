@@ -18,8 +18,14 @@ nav {
 }
 
 nav li {
-  display: inline;
+  display: inline-block;
   margin-left: 15px;
+  transition: all 0.4s;
+}
+
+nav li:hover{
+  transform: scale(1.1);
+  transition-property: inherit;
 }
 
 nav a {
@@ -28,11 +34,11 @@ nav a {
   font-weight: bold;
   font-size: 22px;
   text-transform: uppercase;
+  transition: all 0.2s;
 }
 
 nav a:hover {
   color: #c19c17;
-  text-decoration: underline;
 }
 
 nav a:active {
