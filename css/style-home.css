@@ -175,8 +175,8 @@ footer {
     position: static;
   }
 
-  nav ul li a {
-    font-size: 1em;
+  nav li a {
+    font-size: 1.2rem;
   }
 
   .titulo_principal {

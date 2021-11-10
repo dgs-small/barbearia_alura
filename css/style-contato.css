@@ -1,4 +1,8 @@
-header {
+  body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  header {
     background: #cccccc;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -100,7 +104,7 @@ header {
   }
 
   .submit-button {
-    margin-left: 17%;
+    margin: 0 0 0 17%;
     background: orange;
     color: #FFFFFF;
     border: none;
@@ -118,7 +122,6 @@ header {
 
   }
 
-
   footer {
     background: url(../images/bg.jpg);
     text-align: center;
@@ -129,4 +132,46 @@ header {
     color: #ffffff;
     font-size: 12px;
     margin-top: 20px;
+  }
+
+  @media screen and (max-width: 480px){
+
+    .container, main{
+      width: 100vw;
+    }
+
+    header{
+      text-align: center;
+    }
+
+    nav {
+      position: static;
+    }
+
+    nav li a {
+      font-size: 1.2rem;
+    }
+
+    main {
+      text-align: center;
+    }
+
+    .input-padrao {
+      width: 95%;
+    }
+
+    form legend{
+      margin: 0 auto 10px;
+      font-size: 1.2em;
+    }
+
+    table {
+      margin: 1rem auto;
+    }
+
+    .submit-button {
+      width: 40%;
+      margin: 0 auto 0;
+    }
+
   }
