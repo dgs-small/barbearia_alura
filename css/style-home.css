@@ -133,7 +133,6 @@ main {
 .mapa {
   padding: 3em 0;
   text-align: center;
-  
 }
 
 .mapa p {
@@ -161,4 +160,46 @@ footer {
   font-size: 12px;
   margin-top: 20px;
   color: #ffffff;
+}
+
+@media screen and (max-width: 480px){
+  .container, .principal, .conteudo_beneficios, .mapa_conteudo, .video{
+    width: 100vw;
+  }
+
+  header{
+    text-align: center;
+  }
+
+  header nav {
+    position: static;
+  }
+
+  nav ul li a {
+    font-size: 1em;
+  }
+
+  .titulo_principal {
+    font-size: 1.5em;
+  }
+
+  .principal {
+    box-sizing: border-box;
+    padding: 1em 2.5em;
+  }
+
+  .conteudo_beneficios {
+    box-sizing: border-box;
+    padding: 0 3em;
+  }
+
+  .lista_beneficios {
+    width: 100%;
+  }
+
+  .imagem_beneficios {
+    margin: 2em auto;
+    width: 100%;
+    clip-path: circle(38%);
+  }
 }
